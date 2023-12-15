@@ -1,0 +1,5 @@
+st_digit.c:27: ERROR: code indent should use tabs where possiblest_digit.c:24: ERROR: trailing statements should be on next line
+1-last_digit.c:27: ERROR: code indent should use tabs where possible
+1-last_digit.c:27: WARNING: please, no spaces at the start of a line
+total: 2 errors, 2 warnings, 28 lines checked
+1-last_digit.c:14: warning: no description found for function main:
