@@ -1,23 +1,26 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - entry point
+
+/**
+ * main - Entry point
  *
  * Description: This program generates a random number and
  *              prints the last digit of the number along with some conditions.
  *
  * Return: Always (0) success
-*/
-
-
-/* main generates random number and prints its status */
+ */
 int main(void)
 {
 	int n, digit;
 
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
+/* Calculate the last digit of n */
+	digit = n % 10;
+
 	if (digit > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, digit);
 	else if (digit == 0)
@@ -27,3 +30,4 @@ int main(void)
 
 	return (0);
 }
+
