@@ -1,15 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry point
+ * main - Entry point.
  *
- * Description- program that prints the string _putchar.
+ * Description - prints _putchar using putchar protype
  *
- * Return - Always (0) success
- */
-
-/* Main- is the function that prints the required string */
+ * Return - always (0) success
+*/
 int main(void)
-/* Return - Always (0) success which means that the function has no return*/
 {
 	printf("_putchar\n");
 	return (0);
