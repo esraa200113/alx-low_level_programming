@@ -2,10 +2,10 @@
 /**
  * main - Entry point.
  *
- * Description - prints _putchar using putchar protype
+ * Description: Prints "_putchar" using the _putchar prototype.
  *
- * Return - always (0) success
-*/
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("_putchar\n");
