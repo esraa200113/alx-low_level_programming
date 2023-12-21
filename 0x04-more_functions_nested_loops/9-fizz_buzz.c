@@ -1,11 +1,18 @@
-#include "main.h"
-
+#include <main.h>
 /**
- * fizzbuzz - prints the numbers from 1 to 100, followed by a new line.
+ * main - Entry point
+ * fizzbuzz - prints the numbers from 1 to n, followed by a new line.
  *
  * @n: This parameter represents the upper limit for printing
  *  numbers according to the FizzBuzz rules
  */
+void fizzbuzz(int n);
+
+int main(void)
+{
+	fizzbuzz(100);
+	return (0);
+}
 void fizzbuzz(int n)
 {
 	int i;
