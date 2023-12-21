@@ -1,23 +1,15 @@
-#include <main.h>
-/**
- * main - Entry point
- * fizzbuzz - prints the numbers from 1 to n, followed by a new line.
- *
- * @n: This parameter represents the upper limit for printing
- *  numbers according to the FizzBuzz rules
- */
-void fizzbuzz(int n);
+#include <stdio.h>
 
+/**
+ * main - Entry point, prints numbers from 1 to 100.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-{
-	fizzbuzz(100);
-	return (0);
-}
-void fizzbuzz(int n)
 {
 	int i;
 
-	for (i = 1; i <= n; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -35,12 +27,14 @@ void fizzbuzz(int n)
 		{
 			printf("%d", i);
 		}
-		if (i < n)
+		if (i < 100)
 		{
 			printf(" ");
 		}
 	}
 
 	printf("\n");
+
+	return (0);
 }
 
