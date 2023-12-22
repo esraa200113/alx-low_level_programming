@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+#include "main.h"
 /**
  * largest_prime_factor - finds the largest prime factor of a number
  * @n: the number to find the largest prime factor for
