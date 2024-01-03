@@ -1,6 +1,6 @@
 #include "main.h"
+#include <limits.h> 
 #include <stdio.h>
-
 /**
  * _atoi - Converts a string to an integer.
  * @s: Pointer to the input string.
@@ -35,12 +35,12 @@ int _atoi(char *s)
 				else
 					return (INT_MIN);
 			}
-
 			result = result * 10 + digit;
 			s++;
-		}
+	}
 	}
 
 	return (result * sign);
 }
+
 
