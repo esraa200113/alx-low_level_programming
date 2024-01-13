@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#!/bin/bash
 #include <stdio.h>
 int _putchar(char c);
 int _islower(int c);
