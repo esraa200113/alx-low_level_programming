@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "main.h"
+#include<stdio.h>
 /**
  * alloc_grid - Allocate memory for a 2D array of integers.
  * @width: The width of the grid.
@@ -10,9 +10,10 @@
  */
 int **alloc_grid(int width, int height)
 {
+	int **grid;
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	int **grid = (int **)malloc(sizeof(int *) * height);
+	grid = (int **)malloc(sizeof(int *) * height);
 	
 	if (grid != NULL)
 	{
